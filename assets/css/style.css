@@ -5,67 +5,79 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #3a3a3a;
 }
-header{
-    display: flex;
+/* Header */
+header {
     background-color: #ffffff;
     padding: 0 1rem;
-    position:fixed;
+    position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
-   
+
 }
+header a {
+    text-decoration: none;
+
+}
+
 /* Heading and logo */
-h1, h2 {
+h1 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
 }
-header > a{
-    text-decoration: none;
+nav{
+    width: 100%;
+    padding: 0 1rem;
+    left: 0;
    
+   
+
 }
-li a {
-    text-decoration: none;
-    
-   
+/* main content */
+main {
+    background-color: lightblue;
+    flex: 1 0 auto;
+    margin-top: 150px;
+
 }
 
-#menu{
+#menu {
     font-size: 120%;
     letter-spacing: 2px;
     list-style-type: none;
-    
-    
+
+
 }
-#menu  li{
- margin-bottom: 1rem;
-    
-   
+
+#menu li {
+    margin-bottom: 1rem;
+
+
 }
 
 
-main{
-    background-color: lightblue;
-    flex: 1 0 auto;
-    
-}
-footer{
+
+
+footer {
     background-color: aquamarine;
 }
+
 /* media query , tablets and larger*/
 @media screen and (min-width: 768px) {
+
     /*header*/
     nav {
-        display:flex;
+        display: flex;
         position: relative;
         box-shadow: none;
         width: fit-content;
@@ -73,27 +85,43 @@ footer{
         padding-top: 1.5rem;
         right: 0;
         font-size: 120%;
-       
+
     }
-    #menu{
-        
+
+    #menu {
+
         display: flex;
-       
+
     }
-    #menu > li {
+
+    #menu>li {
         padding-left: 2rem;
-      
+
     }
-    main{
+
+    main {
         margin-top: 47px;
     }
-    header{
-        height: 74px;
+
+    header {
+        height: 79px;
     }
-    header > a{
-        margin-right: 250px;
-       
+
+    header>a {
+        margin-right: 150px;
         font-size: 1.5rem;
     }
- 
+
+}
+
+@media screen and (min-width: 992px) {
+    li > a:hover{
+        border-bottom: 1px solid #1a1547;
+        color: #1a1547;
+       
+
+    }
+   header > a {
+    margin-right: 600px;
+   }
 }
