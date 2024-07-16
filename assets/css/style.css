@@ -3,31 +3,14 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
+    box-sizing: border-box;
 }
 body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     font-family: Lato, sans-serif;
-    font-weight: 300;
     color: #3a3a3a;
-}
-/* Heading and logo */
-h1, h2 {
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
-#logo{
-   float: left;
-   font-size: 230%;
-}
-#menu{
-    font-size: 120%;
-    letter-spacing: 2px;
-    list-style-type: none;
 }
 header{
     background-color: #ffffff;
@@ -36,10 +19,39 @@ header{
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+   
 }
+/* Heading and logo */
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+header > a{
+    text-decoration: none;
+}
+li a {
+    text-decoration: none;
+}
+
+#menu{
+    font-size: 120%;
+    letter-spacing: 2px;
+    list-style-type: none;
+    
+    
+}
+#menu  li{
+    margin-bottom: 1em;
+   
+}
+
+
 main{
     background-color: lightblue;
     flex: 1 0 auto;
+    margin-top: 120px;
 }
 footer{
     background-color: aquamarine;
