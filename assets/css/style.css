@@ -74,54 +74,69 @@ footer {
 
 /* media query , tablets and larger*/
 @media screen and (min-width: 768px) {
-
-    /*header*/
+  
+    #menu {
+        display: flex;  
+    }
+    #menu >li {
+        padding-left: 2rem;
+        
+    }
+   
     nav {
-        display: flex;
+        float: right;
+        display: inline;
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 2rem;
-        padding-top: 1.5rem;
-        right: 0;
+        padding-right: 1rem;
         font-size: 120%;
-
+        margin-left: 50px;
+        margin-top: 25px;
     }
 
-    #menu {
-
+    #logo{
+        font-size: 200%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+        width: 25%;
+    }
+    header  a{
+        width: 25%;
+    }
+   
+    header{
         display: flex;
-
+       height: 79px;
+       width: 100%;
+       padding: 0;
     }
-
-    #menu>li {
-        padding-left: 2rem;
-
-    }
-
-    main {
-        margin-top: 47px;
-    }
-
-    header {
-        height: 79px;
-    }
-
-    header>a {
-        margin-right: 150px;
-        font-size: 1.5rem;
-    }
-
+     /* main content */
+    main{
+        margin-top: 79px;
+            }
 }
 
 @media screen and (min-width: 992px) {
-    li > a:hover{
+    #menu a:hover{
         border-bottom: 1px solid #1a1547;
         color: #1a1547;
-       
-
     }
-   header > a {
-    margin-right: 600px;
-   }
+
+    #menu {
+      
+       height: 79px;
+       width: 100%;
+       margin:25px 0;
+       padding: 0;
+       text-align: center;
+    }
+
+    nav{
+        padding: 0;
+        margin: 0;
+        margin-left: 550px;
+    }
+    
+
 }
