@@ -13,15 +13,16 @@ body {
     font-family: 'Lato', sans-serif;
     color: #3a3a3a;
 }
+
 /* Header */
 .menu {
     background-color: #ffffff;
-    padding:  1rem;
+    padding: 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
-  
+
 
 }
 
@@ -34,25 +35,30 @@ body {
     color: #252525;
     text-decoration: none;
 }
-.right{
+
+.right {
     width: 200px;
-   
-}
- .list {
-   
-    list-style-type: none;
-}
-li a {
-    text-decoration: none;
-}
-nav{
-    width: 100%;
-    padding: 0 1rem;
-    left: 0;
-   
-   
 
 }
+
+.list {
+
+    list-style-type: none;
+
+}
+
+li a {
+    text-decoration: none;
+    letter-spacing: 2px;
+   
+}
+.right li {
+    margin-bottom: 1em;
+}
+
+
+
+
 /* main content */
 main {
     background-color: lightblue;
@@ -82,21 +88,22 @@ footer {
 
 /* media query , tablets and larger*/
 @media screen and (min-width: 768px) {
-    .menu{
+    .menu {
         height: 80px;
         display: flex;
         justify-content: space-between;
-      
+
     }
-  
+
     .left {
-     
-        background-color: green; 
-        font-size: 120%; 
+
+        background-color: green;
+        font-size: 120%;
         line-height: 75px;
         width: 250px;
-        height: 100%; 
+        height: 100%;
     }
+
     .left a {
         text-decoration: none;
     }
@@ -105,59 +112,61 @@ footer {
         width: 400px;
         background-color: rgb(130, 130, 183);
     }
+
     .right li {
-     
+
         list-style-type: none;
 
     }
-    
-    
-     
-        
-    
-        
-    }
- 
-       
-        
-    
-    /*
+
+
+
+
+
+
+}
+
+
+
+
+/*
     header  a{
         width: 25%;
     }*/
-   
-    header{
-        display: flex;
-       height: 79px;
-       width: 100%;
-       padding: 0;
-    }
-     /* main content */
-    main{
-        margin-top: 79px;
-            }
+
+header {
+    display: flex;
+    height: 79px;
+    width: 100%;
+    padding: 0;
+}
+
+/* main content */
+main {
+    margin-top: 79px;
+}
 
 
 @media screen and (min-width: 992px) {
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 1px solid #1a1547;
         color: #1a1547;
     }
 
     #menu {
-      
-       height: 79px;
-       width: 100%;
-       margin:25px 0;
-       padding: 0;
-       text-align: center;
+
+        height: 79px;
+        width: 100%;
+        margin: 25px 0;
+        padding: 0;
+        text-align: center;
     }
 
-    nav{
+    nav {
         padding: 0;
         margin: 0;
         margin-left: 550px;
     }
-    
+
 
 }
