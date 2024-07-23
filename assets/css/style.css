@@ -61,8 +61,6 @@ main {
 
 #menu li {
     margin-bottom: 1rem;
-
-
 }
 
 
@@ -74,36 +72,51 @@ footer {
 
 /* media query , tablets and larger*/
 @media screen and (min-width: 768px) {
+    .menu{
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+      
+    }
   
-    #menu {
-        display: flex;  
+    .left {
+     
+        background-color: green; 
+        font-size: 120%; 
+        line-height: 75px;
+        width: 250px;
+        height: 100%; 
     }
-    #menu >li {
-        padding-left: 2rem;
-        
-    }
-   
-    nav {
-        float: right;
-        display: inline;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-        font-size: 120%;
-        margin-left: 50px;
-        margin-top: 25px;
+    .left a {
+        text-decoration: none;
     }
 
-    #logo{
-        font-size: 200%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-        width: 25%;
+    .right {
+        display: flex;
+        width: 400px;
+       
+        background-color: rgb(130, 130, 183);
     }
+    .right li {
+       
+        list-style-type: none;
+
+    }
+    
+    
+     
+        
+    
+        
+    }
+ 
+       
+        
+    
+    /*
     header  a{
         width: 25%;
-    }
+    }*/
    
     header{
         display: flex;
@@ -115,7 +128,7 @@ footer {
     main{
         margin-top: 79px;
             }
-}
+
 
 @media screen and (min-width: 992px) {
     #menu a:hover{
