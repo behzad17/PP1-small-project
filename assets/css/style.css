@@ -14,26 +14,36 @@ body {
     color: #3a3a3a;
 }
 /* Header */
-header {
+.menu {
     background-color: #ffffff;
-    padding: 0 1rem;
+    padding:  1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+  
 
 }
-header a {
-    text-decoration: none;
 
-}
 
 /* Heading and logo */
-h1 {
+.left a {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
+    text-decoration: none;
+}
+.right{
+    width: 200px;
+   
+}
+ .list {
+   
+    list-style-type: none;
+}
+li a {
+    text-decoration: none;
 }
 nav{
     width: 100%;
@@ -92,13 +102,11 @@ footer {
     }
 
     .right {
-        display: flex;
         width: 400px;
-       
         background-color: rgb(130, 130, 183);
     }
     .right li {
-       
+     
         list-style-type: none;
 
     }
