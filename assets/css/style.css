@@ -50,8 +50,9 @@ body {
 li a {
     text-decoration: none;
     letter-spacing: 2px;
-   
+
 }
+
 .right li {
     margin-bottom: 1em;
 }
@@ -62,11 +63,25 @@ li a {
     margin-top: 185px;
 
 }
+
 /* picture and discription */
-.children{
+.children {
     height: 550px;
     width: 100%;
-    background: url("../images/integration3.jpg") no-repeat center/cover ;
+    background: url("../images/integration3.jpg") no-repeat center/cover;
+}
+
+.text1 {
+    height: 250px;
+    width: 95%;
+    margin: 5px auto;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #3a3a3a;
+    border-radius: 10px;
+    font-size: 110%;
+    box-shadow: rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #f4eeee;
 }
 
 
@@ -86,22 +101,22 @@ footer {
     }
 
     .left {
-      
-      
+
+
         font-size: 120%;
         line-height: 70px;
         width: 250px;
         height: 100%;
         padding-left: 10px;
     }
-  
+
 
     .right {
         display: flex;
         width: 420px;
         height: 100%;
-       
-      
+
+
     }
 
     .right li {
@@ -110,19 +125,21 @@ footer {
         margin: 0;
 
     }
+
     .right ul {
-      display: flex;
+        display: flex;
         font-size: 140%;
-       padding: 10px;
+        padding: 10px;
         align-items: center;
     }
-.list{
-    align-items: center;
-}
 
-.content{
-    margin-top: 80px;
-}
+    .list {
+        align-items: center;
+    }
+
+    .content {
+        margin-top: 80px;
+    }
 }
 
 
@@ -145,15 +162,17 @@ footer {
         text-align: center;
         align-items: center;
     }
-    .right{
-        height: 80px;
-    }
-    .left{
-        height: 80px;
-    }
-   
 
- 
+    .right {
+        height: 80px;
+    }
+
+    .left {
+        height: 80px;
+    }
+
+
+
 
 
 }
