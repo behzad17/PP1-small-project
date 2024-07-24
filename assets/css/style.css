@@ -153,7 +153,7 @@ footer {
         background: url("../images/integration3.jpg") no-repeat center/cover;
         width: 50%;
         height: 500px;
-        border-radius: 0 10px 10px 0;
+        border-radius: 0 20px 20px 0;
         margin: 10px 10px 10px 0;
 
     }
@@ -166,7 +166,7 @@ footer {
         height: 500px;
         margin: 10px 0px 10px 10px;
         font-size: 150%;
-        border-radius: 10px 0 0 10px;
+        border-radius: 20px 0 0 20px;
 
     }
 }
@@ -220,7 +220,7 @@ footer {
         background: url("../images/integration3.jpg") no-repeat center/cover;
         width: 50%;
         height: 500px;
-        border-radius: 0 10px 10px 0;
+        border-radius: 0 20px 20px 0;
         margin: 10px 10px 10px 0;
 
     }
@@ -231,7 +231,7 @@ footer {
         height: 500px;
         margin: 10px 0px 10px 10px;
         font-size: 200%;
-        border-radius: 10px 0 0 10px;
+        border-radius: 20px 0 0 20px;
 
 
     }
