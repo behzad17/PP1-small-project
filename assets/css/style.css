@@ -58,10 +58,15 @@ li a {
 
 /* main content */
 .content {
-    background-color: lightblue;
     flex: 1 0 auto;
     margin-top: 185px;
 
+}
+/* picture and discription */
+.children{
+    height: 550px;
+    width: 100%;
+    background: url("../images/integration3.jpg") no-repeat center/cover ;
 }
 
 
