@@ -140,23 +140,34 @@ footer {
     .content {
         margin-top: 80px;
     }
+
     /* first section */
 
-    #pic1{
+    #pic1 {
         display: flex;
-       
+
     }
-    .children{
-        width: 100%;
+
+    .children {
+
+        background: url("../images/integration3.jpg") no-repeat center/cover;
+        width: 50%;
         height: 500px;
-       
+        border-radius: 0 10px 10px 0;
+        margin: 10px 10px 10px 0;
+
     }
-    .text1{
-        width: 100%;
-        height: 200px;
-      margin-top: 10px;
-      font-size: 150%;
-      
+
+    .text1 {
+
+
+        background-color: rgb(249, 249, 249);
+        width: 50%;
+        height: 500px;
+        margin: 10px 0px 10px 10px;
+        font-size: 150%;
+        border-radius: 10px 0 0 10px;
+
     }
 }
 
@@ -189,36 +200,41 @@ footer {
         height: 80px;
     }
 
-/* first section */
-.content{ 
-   
-    margin-top: 80px;
-    
-}
+    /* first section */
+    .content {
 
-#pic1{
+        margin-top: 80px;
 
-    display: flex;
-    flex-direction: row;
-    height: 500px;
-    width: 100%;
-   
-}
-.children{
-    background: url("../images/integration3.jpg") no-repeat center/cover;
-    width: 40%;
-    height: 500px;
-   
-}
-.text1{
-    background-color: azure;
-    width: 40%;
-    height: 500px;
-  margin-top: 10px;
-  font-size: 150%;
-  
-  
-}
+    }
+
+    #pic1 {
+
+        display: flex;
+        flex-direction: row;
+        height: 500px;
+        width: 100%;
+
+    }
+
+    .children {
+        background: url("../images/integration3.jpg") no-repeat center/cover;
+        width: 50%;
+        height: 500px;
+        border-radius: 0 10px 10px 0;
+        margin: 10px 10px 10px 0;
+
+    }
+
+    .text1 {
+        background-color: rgb(249, 249, 249);
+        width: 50%;
+        height: 500px;
+        margin: 10px 0px 10px 10px;
+        font-size: 200%;
+        border-radius: 10px 0 0 10px;
+
+
+    }
 
 
 
