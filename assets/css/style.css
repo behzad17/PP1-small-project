@@ -35,6 +35,9 @@ body {
     color: #252525;
     text-decoration: none;
 }
+#home{
+    font-size: 90%;
+}
 
 .right {
     width: 200px;
@@ -72,7 +75,7 @@ li a {
 }
 
 .text1 {
-    height: 250px;
+    height: 270px;
     width: 95%;
     margin: 5px auto;
     padding: 10px;
@@ -84,13 +87,30 @@ li a {
     background-color: rgba(241, 109, 107, 0.7);
     color: #ffffff;
 }
+/* section2 */
+#what{
+    text-align: center;
+    color: #3a3a3a;
+}
+#help{
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+   
+}
 .section2{
-width: 90%;
-height: 80px;
+width: 80%;
+height: 90px;
 text-align: center;
 background-color: aliceblue;
 border: 2px dotted #252525;
 border-radius: 10px;
+margin:  10px auto;
+padding: 10px;
+font-size: 110%;
+}
+#icon2{
+    color: blue;
 }
 
 
@@ -153,7 +173,7 @@ footer {
         display: flex;
 
     }
-/* left image */
+    /* left image */
     .children {
 
         background: url("../images/integration3.jpg") no-repeat center/cover;
@@ -173,6 +193,17 @@ footer {
         border-radius: 20px 0 0 20px;
 
     }
+    /* section2 */
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section2{
+        width: 45%;
+        height: 110px;
+        font-size: 1.5rem;
+    }
+   
 }
 
 
@@ -238,9 +269,21 @@ footer {
         font-size: 200%;
         border-radius: 20px 0 0 20px;
 
-
     }
 
-
+  /* section2 */
+  .box{
+    display: flex;
+    justify-content: center;
+   
+   
+}
+.section2{
+    margin: 10px;
+    width: 23%;
+    height: 110px;
+    font-size: 1.5rem;
+   
+}
 
 }
