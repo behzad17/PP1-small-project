@@ -84,6 +84,14 @@ li a {
     background-color: rgba(241, 109, 107, 0.7);
     color: #ffffff;
 }
+.section2{
+width: 90%;
+height: 80px;
+text-align: center;
+background-color: aliceblue;
+border: 2px dotted #252525;
+border-radius: 10px;
+}
 
 
 
