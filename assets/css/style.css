@@ -147,17 +147,19 @@ li a {
     font-size: 1.2rem;
     text-align: justify;
 }
+
 /* footer */
 
 
-#social-networks{
+#social-networks {
     background-color: rgb(201, 220, 237);
     text-align: center;
     display: flex;
-   padding: 20px 0;
-   justify-content: space-evenly;
-   list-style-type: none;
+    padding: 20px 0;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
+
 #social-networks i {
     font-size: 150%;
     padding: 5%;
@@ -253,26 +255,28 @@ li a {
         height: 110px;
         font-size: 1.5rem;
     }
+
     /* about me */
     .content3 {
         display: flex;
-    
+
     }
-    
+
     .pic2 {
         width: 30%;
         border-radius: 50%;
         text-align: center;
-    
+
     }
-    .card{
+
+    .card {
         text-align: center;
     }
-    
+
     #name {
         text-align: center;
     }
-    
+
     .about {
         width: 90%;
         text-align: center;
@@ -285,8 +289,9 @@ li a {
         border-radius: 15px;
         background-color: aliceblue;
     }
+
     /* footer */
-    #social-networks{
+    #social-networks {
         justify-content: space-evenly;
     }
 
@@ -376,26 +381,28 @@ li a {
         font-size: 1.5rem;
 
     }
-     /* about me */
-     .content3 {
+
+    /* about me */
+    .content3 {
         display: flex;
-    
+
     }
-    
+
     .pic2 {
         width: 25%;
         border-radius: 50%;
         text-align: center;
-    
+
     }
-    .card{
+
+    .card {
         text-align: center;
     }
-    
+
     #name {
         text-align: center;
     }
-    
+
     .about {
         width: 90%;
         text-align: center;
