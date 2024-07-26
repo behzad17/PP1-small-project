@@ -172,7 +172,7 @@ main{
 }
 #signup{
   
-    background-image: url("../images/integration-asyl.jpg") ;
+    background-image: url("../images/integration4.jpg") ;
     width: 100%;
     height: 500px;
    background-size: cover;
@@ -187,6 +187,7 @@ main{
 }
 #signup-form>h2 {
     margin-bottom: 25px;
+    text-align: center;
 }
 .text-input{
     background: transparent;
@@ -195,9 +196,24 @@ main{
     height: 30px;
     padding: 0 5px;
     margin: 5px 0 20px 0;
-    border: 2px solid #fafafa;
+    border: 2px solid #ecdfdf;
     border-radius: 3px;
     
+}
+.radio-buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.submit-button {
+    padding: 15px 30px;
+    margin-top: 25px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: #fafafa;
+    background-color: #8aa7c7;
+
+
 }
 
 
@@ -330,13 +346,18 @@ main{
     #social-networks {
         justify-content: space-evenly;
     }
+    /* sign up form for tablets */
+    .signup {
+        background-position: center;
+        position: relative;
+    }
+    #signup-form{
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+    }
 
 }
-
-
-
-
-
 
 /* media query , screens larger than 992px*/
 @media screen and (min-width: 992px) {
@@ -451,6 +472,16 @@ main{
         border-radius: 15px;
         background-color: aliceblue;
         margin-bottom: 50px;
+    }
+      /* sign up form for large screens */
+      .signup {
+        background-position: center;
+        position: relative;
+    }
+    #signup-form{
+        max-width: 500px;
+        position: absolute;
+        left: 10%;
     }
 
 }
