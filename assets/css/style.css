@@ -147,10 +147,21 @@ li a {
     font-size: 1.2rem;
     text-align: justify;
 }
+/* footer */
 
 
-footer {
-    background-color: aquamarine;
+#social-networks{
+    background-color: rgb(201, 220, 237);
+    text-align: center;
+    display: flex;
+   padding: 20px 0;
+   justify-content: space-evenly;
+   list-style-type: none;
+}
+#social-networks i {
+    font-size: 150%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /* media query , tablets and larger*/
@@ -273,6 +284,10 @@ footer {
         margin: auto;
         border-radius: 15px;
         background-color: aliceblue;
+    }
+    /* footer */
+    #social-networks{
+        justify-content: space-evenly;
     }
 
 }
