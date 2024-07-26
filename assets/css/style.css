@@ -165,6 +165,42 @@ li a {
     padding: 5%;
     color: #3a3a3a;
 }
+/* sign up form for mobile devices*/
+main{
+    display: flex;
+    flex-direction: column;
+}
+#signup{
+  
+    background-image: url("../images/integration-asyl.jpg") ;
+    width: 100%;
+    height: 500px;
+   background-size: cover;
+   background-position: 75%;
+   padding: 20px 10% 0 10%;
+   flex-grow: 1;
+}
+#signup-form{
+    color: #ffffff;
+    background-color: rgba(55, 55, 55, 0.6);
+    padding: 30px;
+}
+#signup-form>h2 {
+    margin-bottom: 25px;
+}
+.text-input{
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 30px;
+    padding: 0 5px;
+    margin: 5px 0 20px 0;
+    border: 2px solid #fafafa;
+    border-radius: 3px;
+    
+}
+
+
 
 /* media query , tablets and larger*/
 @media screen and (min-width: 768px) {
@@ -299,10 +335,10 @@ li a {
 
 
 
-/* main content */
 
 
 
+/* media query , screens larger than 992px*/
 @media screen and (min-width: 992px) {
 
     /* manu and logo (header) */
