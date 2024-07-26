@@ -35,7 +35,8 @@ body {
     color: #252525;
     text-decoration: none;
 }
-#home{
+
+#home {
     font-size: 90%;
 }
 
@@ -87,35 +88,65 @@ li a {
     background-color: rgba(241, 109, 107, 0.7);
     color: #ffffff;
 }
+
 /* section2 */
-#what{
+#what {
     text-align: center;
     color: #3a3a3a;
     margin-top: 50px;
 }
-#help{
+
+#help {
     width: 90%;
     margin: 20px auto;
     text-align: center;
-   
-}
-.section2{
-width: 80%;
-height: 90px;
-text-align: center;
-background-color: aliceblue;
-border: 2px dotted #252525;
-border-radius: 10px;
-margin:  10px auto;
-padding: 10px;
-font-size: 110%;
-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
-#icon2{
+
+.section2 {
+    width: 80%;
+    height: 90px;
+    text-align: center;
+    background-color: aliceblue;
+    border: 2px dotted #252525;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 110%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+#icon2 {
     color: blue;
 }
 
+
+
+
+/* about me */
+.content3 {
+    display: flex;
+
+}
+
+.pic2 {
+    width: 80%;
+    margin: 30px 30px 0 30px;
+    border-radius: 50%;
+
+}
+
+#name {
+    text-align: center;
+}
+
+.about {
+    text-align: center;
+    padding: 15px;
+    font-size: 1.2rem;
+    text-align: justify;
+}
 
 
 footer {
@@ -124,6 +155,7 @@ footer {
 
 /* media query , tablets and larger*/
 @media screen and (min-width: 768px) {
+
     /* manu and logo (header) */
     .menu {
         height: 80px;
@@ -176,6 +208,7 @@ footer {
         display: flex;
 
     }
+
     /* left image */
     .children {
 
@@ -186,7 +219,8 @@ footer {
         margin: 10px 10px 10px 0;
 
     }
-/* right text */
+
+    /* right text */
     .text1 {
         background-color: rgba(241, 109, 107, 0.7);
         width: 50%;
@@ -196,17 +230,51 @@ footer {
         border-radius: 20px 0 0 20px;
 
     }
+
     /* section2 */
-    .box{
+    .box {
         display: flex;
         flex-wrap: wrap;
     }
-    .section2{
+
+    .section2 {
         width: 45%;
         height: 110px;
         font-size: 1.5rem;
     }
-   
+    /* about me */
+    .content3 {
+        display: flex;
+    
+    }
+    
+    .pic2 {
+        width: 30%;
+        border-radius: 50%;
+        text-align: center;
+    
+    }
+    .card{
+        text-align: center;
+    }
+    
+    #name {
+        text-align: center;
+    }
+    
+    .about {
+        width: 90%;
+        text-align: center;
+        padding: 15px;
+        font-size: 1.2rem;
+        text-align: justify;
+        border: 3px dotted #3a3a3a;
+        margin-top: 30px;
+        margin: auto;
+        border-radius: 15px;
+        background-color: aliceblue;
+    }
+
 }
 
 
@@ -216,7 +284,8 @@ footer {
 
 
 @media screen and (min-width: 992px) {
-     /* manu and logo (header) */
+
+    /* manu and logo (header) */
     .menu a:hover {
         border-bottom: 1px solid #1a1547;
         color: #1a1547;
@@ -245,7 +314,8 @@ footer {
         margin-top: 80px;
 
     }
-/* the first section */
+
+    /* the first section */
     #pic1 {
 
         display: flex;
@@ -254,7 +324,8 @@ footer {
         width: 100%;
 
     }
-/* left image */
+
+    /* left image */
     .children {
         background: url("../images/integration3.jpg") no-repeat center/cover;
         width: 50%;
@@ -263,7 +334,8 @@ footer {
         margin: 10px 10px 10px 0;
 
     }
-/* right text */
+
+    /* right text */
     .text1 {
         background-color: rgba(215, 151, 150, 0.4);
         width: 50%;
@@ -274,19 +346,53 @@ footer {
 
     }
 
-  /* section2 */
-  .box{
-    display: flex;
-    justify-content: center;
-   
-   
-}
-.section2{
-    margin: 10px;
-    width: 23%;
-    height: 110px;
-    font-size: 1.5rem;
-   
-}
+    /* section2 */
+    .box {
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    .section2 {
+        margin: 10px;
+        width: 23%;
+        height: 110px;
+        font-size: 1.5rem;
+
+    }
+     /* about me */
+     .content3 {
+        display: flex;
+    
+    }
+    
+    .pic2 {
+        width: 25%;
+        border-radius: 50%;
+        text-align: center;
+    
+    }
+    .card{
+        text-align: center;
+    }
+    
+    #name {
+        text-align: center;
+    }
+    
+    .about {
+        width: 90%;
+        text-align: center;
+        padding: 15px;
+        font-size: 1.2rem;
+        text-align: justify;
+        border: 3px dotted #3a3a3a;
+        margin-top: 30px;
+        margin: auto;
+        border-radius: 15px;
+        background-color: aliceblue;
+        margin-bottom: 50px;
+    }
 
 }
