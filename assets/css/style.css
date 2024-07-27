@@ -154,7 +154,8 @@ li a {
     border: 3px dotted #3a3a3a;
     border-radius: 15px;
     background-color: aliceblue;
-    margin-bottom: 25px;
+    margin: 10px 10px 25px 10px;
+   
 }
 
 /* sign up form for mobile devices*/
