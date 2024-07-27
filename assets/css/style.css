@@ -134,6 +134,7 @@ li a {
     width: 80%;
     margin: 30px 30px 0 30px;
     border-radius: 50%;
+    border: 3px solid #252525;
 
 }
 
@@ -165,6 +166,7 @@ li a {
     padding: 5%;
     color: #3a3a3a;
 }
+
 /* sign up form for mobile devices*/
 main{
     display: flex;
