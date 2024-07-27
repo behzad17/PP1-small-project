@@ -135,6 +135,7 @@ li a {
     margin: 30px 30px 0 30px;
     border-radius: 50%;
     border: 3px solid #252525;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
 
