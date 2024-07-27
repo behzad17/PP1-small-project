@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
 html{
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 * {
     margin: 0;
@@ -88,8 +88,8 @@ li a {
     border-radius: 10px;
     font-size: 110%;
     box-shadow: rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    background-color: rgba(241, 109, 107, 0.7);
-    color: #ffffff;
+    background-color: aliceblue;
+    color: #252525
 }
 
 /* section2 */
@@ -151,6 +151,8 @@ li a {
     padding: 15px;
     font-size: 1.2rem;
     text-align: justify;
+    border: 3px dotted #3a3a3a;
+    border-radius: 15px;
 }
 
 /* sign up form for mobile devices*/
@@ -291,12 +293,13 @@ main{
 
     /* right text */
     .text1 {
-        background-color: rgba(241, 109, 107, 0.7);
+        background-color: aliceblue;
         width: 50%;
         height: 500px;
         margin: 10px 0px 10px 10px;
         font-size: 150%;
         border-radius: 20px 0 0 20px;
+        color: #252525;
 
     }
 
@@ -418,12 +421,13 @@ main{
 
     /* right text */
     .text1 {
-        background-color: rgba(215, 151, 150, 0.4);
+        background-color: aliceblue;
         width: 50%;
         height: 500px;
         margin: 10px 0px 10px 10px;
         font-size: 200%;
         border-radius: 20px 0 0 20px;
+        color: #252525;
 
     }
 
