@@ -153,6 +153,7 @@ li a {
     text-align: justify;
     border: 3px dotted #3a3a3a;
     border-radius: 15px;
+    background-color: aliceblue;
 }
 
 /* sign up form for mobile devices*/
