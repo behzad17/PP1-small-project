@@ -1,10 +1,38 @@
-INTEGRATION my first website!
+# INTEGRATION my first website!
 
-Welcome Behzad Javadian,
+INTEGRATION is a site that  i hope help  people  integrate into the new society  in Sweden by many diffrent ways.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features
+   
+   ### Existing Features
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the ideo content was created. The last update to this file was: **June 18, 2024**
+1. Navigation Bar   
+
+2. The landing page image and information
+
+3. What i do section
+
+4. About me section
+
+5. The Sign Up section
+
+6. Footer
+
+## Testing
+
+## Validator Testing
+ 1. HTML
+No errors were returned when passing through the official W3C validator
+2. CSS
+No errors were found when passing through the official (Jigsaw) validator
+
+## Deployment
+The live link can be found here: 
+
+## Content
+
+
+
 
 ## Gitpod Reminders
 
