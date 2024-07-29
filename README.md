@@ -2,7 +2,8 @@
 
 INTEGRATION is a site that  i hope help  people  integrate into the new society  in Sweden by many diffrent ways.Whether you're seeking advice on navigating the complexities of Swedish society or looking for strategies to foster a more inclusive environment, I am here to assist.
 
-ax
+![Screens](/assets/images/Neutral%20Beige%20Screen%20Creator%20Facebook%20Cover.jpg)
+
 
 ## important:
 I followed method Mobile-first design or Mobile-first approach enables web designers to start product design for mobile devices first. This can be done by sketching or prototyping the web app's design for the smallest screen first and gradually working up to larger screen sizes  
