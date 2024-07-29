@@ -2,7 +2,7 @@
 
 INTEGRATION is a site that  i hope help  people  integrate into the new society  in Sweden by many diffrent ways.Whether you're seeking advice on navigating the complexities of Swedish society or looking for strategies to foster a more inclusive environment, I am here to assist.
 
-![Screens](/assets/images/Neutral%20Beige%20Screen%20Creator%20Facebook%20Cover.jpg)
+![Screens](/assets/images/screens.jpg)
 
 
 ## important:
