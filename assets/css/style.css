@@ -122,7 +122,7 @@ li a {
 
 }
 
-#icon2 {
+.icon2 {
     color: blue;
 }
 
@@ -136,12 +136,16 @@ li a {
 }
 
 .pic2 {
-    width: 80%;
-    margin: 30px;
+    width: 40%;
+    text-align: center;
+    margin: auto;
     border-radius: 50%;
     border: 3px solid #252525;
     box-shadow: rgba(0, 0, 0, 0.35) 10px 5px 15px;
 
+}
+.card{ 
+    text-align: center;
 }
 
 #name {
@@ -335,6 +339,7 @@ main{
 
     .card {
         text-align: center;
+        margin-bottom: 30px;
     }
 
     #name {
@@ -348,8 +353,7 @@ main{
         font-size: 1.2rem;
         text-align: justify;
         border: 3px dotted #3a3a3a;
-        margin-top: 30px;
-        margin: auto;
+        margin:30px 30px 30px 30px;
         border-radius: 15px;
         background-color: aliceblue;
     }
@@ -412,6 +416,9 @@ main{
         height: 500px;
         width: 100%;
 
+    }
+    .card{
+        margin-bottom: 30px;
     }
 
     /* left image */

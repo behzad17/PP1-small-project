@@ -1,12 +1,15 @@
 # INTEGRATION my first website!
 
-INTEGRATION is a site that  i hope help  people  integrate into the new society  in Sweden by many diffrent ways.
+INTEGRATION is a site that  i hope help  people  integrate into the new society  in Sweden by many diffrent ways.Whether you're seeking advice on navigating the complexities of Swedish society or looking for strategies to foster a more inclusive environment, I am here to assist.
 
-## Features
+
    
    ### Existing Features
 
-1. Navigation Bar   
+1. Navigation Bar 
+  Beacuse of the page website is one page navigation bar featured on the top of the page, the responsive navigation bar includes links to the Home page, services and Sign Up section.
+This section will allow the user to easily navigate from section to section across all devices without having to revert back to the previous page via the ‘back’ button. A smoth
+
 
 2. The landing page image and information
 
