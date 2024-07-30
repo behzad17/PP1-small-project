@@ -27,10 +27,7 @@ body {
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     height: 190px;
-
-
 }
-
 
 /* Heading and logo */
 .left a {
@@ -53,13 +50,11 @@ body {
 .list {
 
     list-style-type: none;
-
 }
 
 li a {
     text-decoration: none;
     letter-spacing: 2px;
-
 }
 
 .right li {
@@ -237,8 +232,6 @@ main {
     color: #3a3a3a;
     padding-top: 50px;
 }
-
-
 
 /* media query , tablets and larger*/
 @media screen and (min-width: 768px) {
